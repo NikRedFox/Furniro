@@ -1,0 +1,103 @@
+@import url(./global.css);
+
+body{
+    background-color: var(--color-neutral-white);
+    font-family: "Poppins", sans-serif;
+}
+
+/*--------Header--------*/
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 100px 30px 54px;
+}
+
+.header-links ul{
+    display: flex;
+    list-style: none;
+    gap: 75px;
+}
+
+.header-links a{
+    text-decoration: none;
+    color: var(--color-neutral-black);
+    font-size: var(--paragraph4);
+    font-weight: var(--paragraph4-weight);
+}
+
+.button-header{
+    display: flex;
+    gap: 45px;
+    align-items: center;
+}
+
+/*--------Header--------*/
+
+/*--------Main--------*/
+main{
+    
+    width: 100%px;
+    height: 716px; 
+    position: relative;
+}
+
+main img{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.main-golden-box{
+    display: flex;
+    flex-direction: column;
+    width: 643px;
+    height: 443px;
+    padding: 62px 43px 37px 39px;
+    background-color: var(--color-off-white-main);
+    gap: 17px;
+    border-radius: 10px;
+    position: absolute;
+    top: 200px;
+    right: 58px;
+}
+
+.main-golden-box p{
+    font-size: var(--paragraph4);
+    font-weight: 600;
+    color: var(--color-text-gray);
+    width: 500px;
+}
+
+.main-golden-box h1{
+    font-size: var(--headline1);
+    font-weight: var(--headline1-weight);
+    color: var(--color-primary-gold);
+    line-height: 1.1;
+}
+
+.main-golden-box button{
+    width: 222px;
+    height: 74px;
+    padding: 25px 72px;
+    background-color: var(--color-primary-gold);
+    margin-top: 30px;
+}
+
+.main-golden-box a{
+    text-decoration: none;
+    color: var(--color-neutral-white);
+    font-size: var(--paragraph4);
+    font-weight: var(--headline1-weight);
+}
+/*--------Main--------*/
+
+/*--------Browse--------*/
+section{
+    margin-top: 76px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*--------Browse--------*/
