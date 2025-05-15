@@ -99,5 +99,52 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 60px;
+}
+
+.browse-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.browse-text h2{
+    color: var(--color-text-gray);
+    font-size: var(--headline3);
+    font-weight: var(--headline3-weight);
+}
+
+.browse-text p{
+    color: var(--color-text-grayish);
+    font-size: var(--paragraph2);
+    font-weight: var(--paragraph2-weight);
+}
+
+.browse-img-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.browse-img{
+    display: flex;
+    gap: 20px;
+}
+
+.img-text{
+    display: flex;
+    justify-content: center;
+    gap: 326px;
+}
+
+.img-text p{
+    color: var(--color-text-grayish);
+    font-size: var(--paragraph3);
+    font-weight: var(--paragraph3-weight);
 }
 /*--------Browse--------*/
+
+/*--------Products--------*/
+
+/*--------Products--------*/
