@@ -222,7 +222,68 @@ section{
     text-decoration: line-through;
     font-size: var(--paragraph4);
 }
-
-
-
 /*--------Products--------*/
+
+/*--------Inspiration--------*/
+.inspiration-container{
+    width: 1440px;
+    height: 670px;
+    background-color: var(--color-off-white-secondary);
+}
+
+.inspiration-text{
+    width: 422px;   
+    gap: 8px; 
+}
+
+.inspiration-text h2{
+    font-size: var(--headline2);
+    font-weight: var(--headline2-weight);
+    color: var(--color-gray-tint);
+}
+
+.inspiration-text p{
+    font-size: var(--paragraph4);
+    font-weight: var(--paragraph4-weight);
+    color: var(--color-fade-lightgray);
+}
+
+.inspiration-text button{
+    width: 176px;
+    height: 48px;
+    background-color: var(--color-primary-gold);
+    font-size: var(--paragraph4);
+    font-weight: 700;
+    color: var(--color-neutral-white);
+    margin-top: 25px;
+}
+
+.bedroom-container{
+    display: flex;
+    flex-direction: column;   
+    position: relative; 
+}
+
+.bedroom-textbox{
+    display: flex;
+    position: absolute;
+    
+}
+
+.bedroom-textbox button{
+    background-color: var(--color-primary-gold);
+    width: 48px;
+    height: 48px;
+    margin-top: 82px;
+}
+
+.bedroom-text{
+    display: flex;
+    flex-direction: column;
+    width: 217px;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-neutral-white);
+}
+/*--------Inspiration--------*/
