@@ -21,6 +21,8 @@ main{
 
     --color-text-gray: #333333;
     --color-text-grayish: #666666;
+    --color-fade-dark-gray: #898989;
+    --color-fade-gray: #b0b0b0;
     --color-text-lightgray: #9F9F9F;
     --color-gray-tint: #3A3A3A;
     --color-lightgray-tint: #F4F5F7;

@@ -37,16 +37,16 @@ header{
 
 /*--------Main--------*/
 main{
-    
+    display: flex;
     width: 100%px;
     height: 716px; 
-    position: relative;
-}
+    background-image: url(../assets/images/Main-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: end;
 
-main img{
-    width: 100%;
-    position: absolute;
-    z-index: -1;
 }
 
 .main-golden-box{
@@ -58,9 +58,10 @@ main img{
     background-color: var(--color-off-white-main);
     gap: 17px;
     border-radius: 10px;
-    position: absolute;
+    margin-right: 58px;
+    /* position: absolute;
     top: 200px;
-    right: 58px;
+    right: 58px; */
 }
 
 .main-golden-box p{
@@ -83,6 +84,7 @@ main img{
     padding: 25px 72px;
     background-color: var(--color-primary-gold);
     margin-top: 30px;
+    cursor: pointer;
 }
 
 .main-golden-box a{
@@ -146,5 +148,81 @@ section{
 /*--------Browse--------*/
 
 /*--------Products--------*/
+.products-container h2{
+    font-size: var(--headline2);
+    color: var(--color-gray-tint);
+}
+
+.products-container button{
+    background-color: transparent;
+    border: 1px solid var(--color-primary-gold);
+    color: var(--color-primary-gold);
+    width: 245px;
+    height: 48px;
+    padding: 12px 74px 12px 82px;
+    cursor: pointer;
+    font-size: var(--paragraph4);
+    font-weight: 700;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 62px 32px;
+}
+
+.product-card{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 16px;
+    background-color: var(--color-lightgray-tint);
+}
+
+.img-discount{    
+    position: absolute; 
+    right: 8%;  
+    top: 4%; 
+}
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: var(--color-gray-tint);   
+    padding-left: 16px;
+    padding-bottom: 30px; 
+}
+
+.card-text h3{
+    font-size: var(--paragraph3);
+    font-weight: var(--paragraph3-weight);
+}
+
+.card-text p{
+    color: var(--color-fade-dark-gray);
+    font-size: var(--paragraph4);
+    font-weight: 500;
+}
+
+.card-price{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.card-price p:nth-of-type(1){
+    font-size: var(--paragraph2);
+    font-weight: var(--paragraph3-weight);
+    color: var(--color-gray-tint);
+}
+
+.card-price p:nth-of-type(2){
+    color: var(--color-fade-gray);
+    text-decoration: line-through;
+    font-size: var(--paragraph4);
+}
+
+
 
 /*--------Products--------*/
