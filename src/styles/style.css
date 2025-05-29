@@ -96,7 +96,7 @@ main{
 /*--------Main--------*/
 
 /*--------Browse--------*/
-section{
+.browse-container{
     margin-top: 76px;
     display: flex;
     flex-direction: column;
@@ -148,6 +148,14 @@ section{
 /*--------Browse--------*/
 
 /*--------Products--------*/
+.products-container{
+    margin-top: 76px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
 .products-container h2{
     font-size: var(--headline2);
     color: var(--color-gray-tint);
@@ -232,8 +240,11 @@ section{
 
 /*--------Inspiration--------*/
 .inspiration-container{
-    width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 670px;
+    gap: 42px;
     background-color: var(--color-off-white-secondary);
 }
 
@@ -264,6 +275,11 @@ section{
     margin-top: 25px;
 }
 
+.inspiration-imgbox{
+    display: flex;
+    gap: 24px;
+}
+
 .bedroom-container{
     display: flex;
     flex-direction: column;   
@@ -273,7 +289,44 @@ section{
 .bedroom-textbox{
     display: flex;
     position: absolute;
-    
+    top: 73%;
+    left: 8%;    
+}
+
+.bedroom-textbox h3{
+    font-size: var(--headline4);
+    font-weight: 700;
+}
+
+.icon-carrocel{
+    display: flex;
+     align-items: center;
+     gap: 20px;
+     margin-top: 40px;
+}
+
+.golden-ring-outter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--color-primary-gold);
+    width: 27px;
+    height: 27px;
+    border-radius: 50px;
+}
+
+.golden-ring-inner{
+    border-radius: 50px;
+    width: 11px;
+    height: 11px;
+    background-color: var(--color-primary-gold);
+}
+
+.gray-ring{
+    width: 11px;
+    height: 11px;
+    background-color: var(--color-fade-gray);
+    border-radius: 50px;
 }
 
 .bedroom-textbox button{
@@ -292,4 +345,57 @@ section{
     align-items: center;
     background-color: var(--color-neutral-white);
 }
+
+.white-wall-container{
+    position: relative;
+}
+
+.white-wall-container button{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    background-color: var(--color-neutral-white);
+    border-radius: 50px;
+    left: -100%;
+    top: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
 /*--------Inspiration--------*/
+
+/*--------Share--------*/
+.share-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.share-img-container{
+    display: flex;   
+    gap: 16px; 
+}
+
+.share-left-column{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.share-l-column-top{
+    display: flex;  
+    align-items: end; 
+    gap: 16px; 
+}
+
+.share-l-column-bottom{
+    display: flex;  
+    align-items: start; 
+    gap: 16px; 
+}
+
+.share-middle-column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*--------Share--------*/
