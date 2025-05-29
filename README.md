@@ -51,7 +51,7 @@ Esse é um site que desenvolvi a partir de um template no Figma, para testar meu
 3 - Abrir o arquivo index.html
 
 * Pode Pode também rodar o site sem baixar pelo link do guithub pages:
-* <a href="https://nikredfox.github.io/Portifolio-3d-print/">Furniro</a>
+* <a href="https://nikredfox.github.io/Furniro/">Furniro</a>
 
 <!-- MODELO DE PRÉ REQUISITOS -->
 ### Pré-requisitos
