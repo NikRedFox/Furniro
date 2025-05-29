@@ -437,3 +437,21 @@ main{
 }
 
 /*--------Share--------*/
+
+/*--------Footer--------*/
+footer{
+    display: flex;
+    flex-direction: column;    
+}
+
+.footer-links-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.furniro-column{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+/*--------Footer--------*/
