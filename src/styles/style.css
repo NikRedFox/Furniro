@@ -78,13 +78,21 @@ main{
     line-height: 1.1;
 }
 
-.main-golden-box button{
+.main-golden-box a{
     width: 222px;
     height: 74px;
     padding: 25px 72px;
     background-color: var(--color-primary-gold);
     margin-top: 30px;
     cursor: pointer;
+}
+
+.main-golden-box a:hover{
+    background-color: var(--color-neutral-white);
+    color: var(--color-primary-gold);
+    border: 1px solid var(--color-primary-gold);
+    transition: 0.3s ease;
+    
 }
 
 .main-golden-box a{
@@ -154,6 +162,7 @@ main{
     flex-direction: column;
     align-items: center;
     gap: 60px;
+    margin-bottom: 69px;
 }
 
 .products-container h2{
@@ -161,7 +170,7 @@ main{
     color: var(--color-gray-tint);
 }
 
-.products-container button{
+.product-button{
     background-color: transparent;
     border: 1px solid var(--color-primary-gold);
     color: var(--color-primary-gold);
@@ -173,6 +182,12 @@ main{
     font-weight: 700;
 }
 
+.product-button:hover{
+    background-color: var(--color-primary-gold);
+    color: var(--color-neutral-white);
+    transition: 0.3s ease;
+}
+
 .card-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -180,9 +195,45 @@ main{
 }
 
 .card-tint{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.3s ease;
     z-index: 1000;
+}
+
+.product-card:hover .card-tint{
+    opacity: 1;
+}
+
+.card-button{
+    background-color: var(--color-neutral-white);
+    color: var(--color-primary-gold);
+    width: 202px;
+    height: 48px;
+    font-weight: var(--paragraph3-weight);
+    cursor: pointer;
+}
+
+.social-box{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-box a{
+    text-decoration: none;
+    color: var(--color-neutral-white);
 }
 
 .product-card{
@@ -191,6 +242,7 @@ main{
     position: relative;
     gap: 16px;
     background-color: var(--color-lightgray-tint);
+    overflow: hidden;
 }
 
 .img-discount{    
@@ -273,6 +325,14 @@ main{
     font-weight: 700;
     color: var(--color-neutral-white);
     margin-top: 25px;
+    cursor: pointer;
+}
+
+.inspiration-text button:hover{
+    background-color: var(--color-neutral-white);
+    color: var(--color-primary-gold);
+    border: 1px solid var(--color-primary-gold);
+    transition: 0.3s ease;
 }
 
 .inspiration-imgbox{
@@ -334,6 +394,7 @@ main{
     width: 48px;
     height: 48px;
     margin-top: 82px;
+    cursor: pointer;
 }
 
 .bedroom-text{
@@ -359,7 +420,9 @@ main{
     left: -100%;
     top: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
 }
+
 /*--------Inspiration--------*/
 
 /*--------Share--------*/
